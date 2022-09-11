@@ -14,13 +14,13 @@ probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [prikarsartam/Olga__The-Headlineser](https://huggingface.co/prikarsartam/Olga__The-Headlineser) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Train Loss: 2.6597
-- Validation Loss: 2.4273
-- Train Rouge1: 29.3589
-- Train Rouge2: 8.3778
-- Train Rougel: 23.0454
-- Train Rougelsum: 23.0321
-- Train Gen Len: 18.8098
+- Train Loss: 2.6042
+- Validation Loss: 2.3376
+- Train Rouge1: 30.6249
+- Train Rouge2: 9.5840
+- Train Rougel: 24.6437
+- Train Rougelsum: 24.6131
+- Train Gen Len: 18.83
 - Epoch: 0
 
 ## Model description
@@ -47,7 +47,7 @@ The following hyperparameters were used during training:
 
 | Train Loss | Validation Loss | Train Rouge1 | Train Rouge2 | Train Rougel | Train Rougelsum | Train Gen Len | Epoch |
 |:----------:|:---------------:|:------------:|:------------:|:------------:|:---------------:|:-------------:|:-----:|
-| 2.6597     | 2.4273          | 29.3589      | 8.3778       | 23.0454      | 23.0321         | 18.8098       | 0     |
+| 2.6042     | 2.3376          | 30.6249      | 9.5840       | 24.6437      | 24.6131         | 18.83         | 0     |
 
 
 ### Framework versions
