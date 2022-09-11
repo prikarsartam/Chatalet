@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "t5-small",
+  "_name_or_path": "prikarsartam/Olga__The-Headlineser",
   "architectures": [
     "T5ForConditionalGeneration"
   ],

@@ -104,7 +104,7 @@
   "eos_token": "</s>",
   "extra_ids": 100,
   "model_max_length": 512,
-  "name_or_path": "t5-small",
+  "name_or_path": "prikarsartam/Olga__The-Headlineser",
   "pad_token": "<pad>",
   "special_tokens_map_file": null,
   "tokenizer_class": "T5Tokenizer",
