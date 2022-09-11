@@ -14,13 +14,13 @@ probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [prikarsartam/Olga__The-Headlineser](https://huggingface.co/prikarsartam/Olga__The-Headlineser) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Train Loss: 2.6042
-- Validation Loss: 2.3376
-- Train Rouge1: 30.6249
-- Train Rouge2: 9.5840
-- Train Rougel: 24.6437
-- Train Rougelsum: 24.6131
-- Train Gen Len: 18.83
+- Train Loss: 2.6154
+- Validation Loss: 2.4298
+- Train Rouge1: 29.4609
+- Train Rouge2: 8.3437
+- Train Rougel: 23.0867
+- Train Rougelsum: 23.0929
+- Train Gen Len: 18.8153
 - Epoch: 0
 
 ## Model description
@@ -40,14 +40,14 @@ More information needed
 ### Training hyperparameters
 
 The following hyperparameters were used during training:
-- optimizer: {'name': 'AdamWeightDecay', 'learning_rate': 2e-05, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False, 'weight_decay_rate': 0.01}
+- optimizer: {'name': 'AdamWeightDecay', 'learning_rate': 2e-06, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False, 'weight_decay_rate': 0.01}
 - training_precision: float32
 
 ### Training results
 
 | Train Loss | Validation Loss | Train Rouge1 | Train Rouge2 | Train Rougel | Train Rougelsum | Train Gen Len | Epoch |
 |:----------:|:---------------:|:------------:|:------------:|:------------:|:---------------:|:-------------:|:-----:|
-| 2.6042     | 2.3376          | 30.6249      | 9.5840       | 24.6437      | 24.6131         | 18.83         | 0     |
+| 2.6154     | 2.4298          | 29.4609      | 8.3437       | 23.0867      | 23.0929         | 18.8153       | 0     |
 
 
 ### Framework versions
