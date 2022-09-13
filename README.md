@@ -4,7 +4,6 @@ tags:
 - generated_from_keras_callback
 model-index:
 - name: prikarsartam/Olga__The-Headlineser
-  results: []
 ---
 
 <!-- This model card has been generated automatically according to the information Keras had access to. You should
