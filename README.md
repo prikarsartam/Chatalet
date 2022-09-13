@@ -11,7 +11,7 @@ probably proofread and complete it, then remove this comment. -->
 
 # prikarsartam/Chatelet
 
-This model is a fine-tuned version of [prikarsartam/Olga__The-Headlineser](https://huggingface.co/prikarsartam/Olga__The-Headlineser) on an unknown dataset.
+This model is a fine-tuned version of [prikarsartam/Chatalet](https://huggingface.co/prikarsartam/Chatelet) on an unknown dataset.
 It achieves the following results on the evaluation set:
 - Train Loss: 2.6154
 - Validation Loss: 2.4298
@@ -32,7 +32,7 @@ Trained on Custom dataset from  [BBC News Data](https://www.kaggle.com/datasets/
 
 ## Training procedure
 
-It has been trained with 1 epoch with train_loss of 2.4% and will be improved with larger datasets and greated epochs
+It has been trained with 1 epoch with train_loss of 2.6% and will be improved with larger datasets and greated epochs
 
 ### Training hyperparameters
 
