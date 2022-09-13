@@ -3,13 +3,13 @@ license: apache-2.0
 tags:
 - generated_from_keras_callback
 model-index:
-- name: prikarsartam/Olga__The-Headlineser
+- name: prikarsartam/Chatelet
 ---
 
 <!-- This model card has been generated automatically according to the information Keras had access to. You should
 probably proofread and complete it, then remove this comment. -->
 
-# prikarsartam/Olga__The-Headlineser
+# prikarsartam/Chatelet
 
 This model is a fine-tuned version of [prikarsartam/Olga__The-Headlineser](https://huggingface.co/prikarsartam/Olga__The-Headlineser) on an unknown dataset.
 It achieves the following results on the evaluation set:
@@ -24,17 +24,15 @@ It achieves the following results on the evaluation set:
 
 ## Model description
 
-More information needed
-
-## Intended uses & limitations
-
-More information needed
+A Seq2Seq model based on Keras model structure with the purpose of extreme-summarisation of any given text of arbitrary inputs; the further plan is to integrate 'multilabel' text classification and 'allure-filter' to enhance performability
 
 ## Training and evaluation data
 
-More information needed
+Trained on Custom dataset from  [BBC News Data](https://www.kaggle.com/datasets/hgultekin/bbcnewsarchive)
 
 ## Training procedure
+
+It has been trained with 1 epoch with train_loss of 2.4% and will be improved with larger datasets and greated epochs
 
 ### Training hyperparameters
 
